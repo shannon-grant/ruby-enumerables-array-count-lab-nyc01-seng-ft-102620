@@ -4,7 +4,7 @@ def count_strings(array)
   end
 end
 
-def count_empty_strings(array)
+def count_empty_strings(array1)
   empty_string = " "
   array.count do |index|
     index = empty_string
